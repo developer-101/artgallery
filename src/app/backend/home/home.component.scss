@@ -1,0 +1,13 @@
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.container mat-card { cursor: pointer; font-size: 2rem; text-align: center; letter-spacing: 3px;}
+.container mat-card.pictures { background-color: rgb(223, 145, 145);}
+.container mat-card.galleries { background-color: rgb(41, 175, 52);}
+.container mat-card.author { background-color: rgb(120, 167, 206);}
+.container mat-card.other { background-color: rgb(160, 79, 140);}
